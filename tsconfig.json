@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    // onde será salvo os js compilados pelo typescript
+    "outDir": "./dist",
+    // para suar o import no lugar do require()
+    "module": "commonjs",
+    "target": "es2019",
+    // converte os modules
+    "esModuleInterop": true,
+    // arquivos de config js incluir no dist
+    "allowJs": true
+  }
+}

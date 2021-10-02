@@ -8,6 +8,8 @@
     // converte os modules
     "esModuleInterop": true,
     // arquivos de config js incluir no dist
-    "allowJs": true
+    "allowJs": true,
+    // requer para tirar o warning
+    "strictNullChecks": true
   }
 }

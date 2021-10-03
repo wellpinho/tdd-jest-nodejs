@@ -4,7 +4,8 @@
   "description": "Development with tests using Jest with Nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
